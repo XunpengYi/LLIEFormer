@@ -12,7 +12,7 @@ def main():
         [transforms.ToTensor(),
          transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])])
 
-    root="./dataset/LOLdataset/eval15/low"
+    root="./dataset/LOLdataset/eval/low"
     assert os.path.exists(root), "file: '{}' dose not exist.".format(root)
 
     images_path = loadfiles(root=root)
@@ -21,6 +21,7 @@ def main():
     print("path checking complete!")
     print("confirmly find {} images for computing".format(len(images_path)))
     model = create_model().to(device)
+    
     model_weight_path = "./weights/LOL_LA_model.pth"
     model.load_state_dict(torch.load(model_weight_path, map_location=device)['model'])
     model.eval()
