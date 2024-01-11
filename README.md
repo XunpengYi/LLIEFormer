@@ -25,6 +25,19 @@ We provide the pretrained models:
 | RetinexNet | 16.71 | 0.626 | 
 | **LLIEFormer** | **25.14** | **0.797** | 
 
+## Dataset
+You can put and rename the dataset in the following way:
+```bash
+    dataset/
+        LOLdataset/
+            train/
+                high/
+                low/
+            eval/
+                high/
+                low/
+```
+
 ## Test
 ```bash
 cd LLIEFormer-main/
