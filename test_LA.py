@@ -21,7 +21,7 @@ def main():
     print("path checking complete!")
     print("confirmly find {} images for computing".format(len(images_path)))
     model = create_model().to(device)
-    model_weight_path = "./weights/LOL_weights/best_psnr_model.pth"
+    model_weight_path = "./weights/LOL_LA_model.pth"
     model.load_state_dict(torch.load(model_weight_path, map_location=device)['model'])
     model.eval()
     for img_path in images_path:
