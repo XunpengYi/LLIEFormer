@@ -7,13 +7,13 @@ Xunpeng Yi, Yuxuan Wang, Yizhen Zhao, Jia Yan, Weixia Zhang in ICIP 2023
 ## Pretrained Model
 We provide the pretrained models:
 
-- LLIEFormer pretrained on LOL dataset is [here](https://pan.baidu.com/s/15fRZoSGX_8hSgJJTVm5gaQ) (code: 9m5g).
+- LLIEFormer pretrained on LOL dataset  at [[Google Drive]](https://drive.google.com/file/d/1CcZRDFHp94ezcO20AldpgY36am85peEG/view?usp=sharing) | [[Baidu Drive]](https://pan.baidu.com/s/15fRZoSGX_8hSgJJTVm5gaQ) (code: 9m5g).
 
 | Method | PSNR | SSIM |
 | :-- | :--: | :--: |
 | **LLIEFormer** | **22.08** | **0.883** |
 
- - LLIEFormer pretrained on PairL1.6K dataset is [here](https://pan.baidu.com/s/1D8KkgpAcki1mmAMiTT0tGg) (code: v513) (update version).
+ - LLIEFormer pretrained on PairL1.6K dataset at [[Google Drive]](https://drive.google.com/file/d/1I7T79lE3T08_7juerDEOasEu3wXDFIXi/view?usp=drive_link) | [[Baidu Drive]](https://pan.baidu.com/s/1D8KkgpAcki1mmAMiTT0tGg) (code: v513) (update version).
 
 | Method | PSNR | SSIM |
 | :-- | :--: | :--: |
